@@ -1,0 +1,41 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'link',
+1 verbose cli   '/home/check50/bin/check50.js' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 verbose node symlink /usr/bin/node
+5 verbose install where,what [ '/usr/lib', [ '/home/check50/bin/check50.js' ] ]
+6 verbose cache add [ '/home/check50/bin/check50.js', null ]
+7 verbose cache add name=undefined spec="/home/check50/bin/check50.js" args=["/home/check50/bin/check50.js",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '/home/check50/bin/check50.js',
+8 verbose parsed url   path: '/home/check50/bin/check50.js',
+8 verbose parsed url   href: '/home/check50/bin/check50.js' }
+9 silly lockFile 9a8a6ee8-home-check50-bin-check50-js /home/check50/bin/check50.js
+10 verbose lock /home/check50/bin/check50.js /home/svetlio/.npm/9a8a6ee8-home-check50-bin-check50-js.lock
+11 silly lockFile 9a8a6ee8-home-check50-bin-check50-js /home/check50/bin/check50.js
+12 silly lockFile 9a8a6ee8-home-check50-bin-check50-js /home/check50/bin/check50.js
+13 error addLocal Could not install /home/check50/bin/check50.js
+14 error Error: ENOENT, stat '/home/check50/bin/check50.js'
+15 error If you need help, you may report this *entire* log,
+15 error including the npm and node versions, at:
+15 error     <http://github.com/npm/npm/issues>
+16 error System Linux 3.13.0-35-generic
+17 error command "/usr/bin/node" "/usr/bin/npm" "link" "/home/check50/bin/check50.js"
+18 error cwd /home/svetlio/Dropbox/pset3/find
+19 error node -v v0.10.31
+20 error npm -v 1.4.23
+21 error path /home/check50/bin/check50.js
+22 error code ENOENT
+23 error errno 34
+24 verbose exit [ 34, true ]

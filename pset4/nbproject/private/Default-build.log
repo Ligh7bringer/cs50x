@@ -1,0 +1,5 @@
+clang -ggdb3 -Ispl/include -O0 -std=c99 -Wall -Werror -Wno-unused-variable -o breakout breakout.c -Lspl/lib -lcs -lm
+/usr/bin/ld: skipping incompatible spl/lib/libcs.a when searching for -lcs
+/usr/bin/ld: cannot find -lcs
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [breakout] Error 1
