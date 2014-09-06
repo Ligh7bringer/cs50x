@@ -1,0 +1,19 @@
+0.  gif - 256; bmp - 16M; png - 256T; jpeg - 16M
+1.  gif
+2.  Lossy compression results in inability for all of the information to be recovered, while lossless compression ensures all of it is recoverable. 
+3.  jpeg
+4.  The system just "forgets" the location of the file on the hard disk. This way the file remains on the hard disk but it might be overwritten because it's no longer considered an existing file.
+5.  You can sanitize your hard disk by replacing all the existing bits with ASCII NULL characters.
+6.  It adds a few different kind of ints which have different width depending on what you might need to use. All ints have a minimum and maximum value, so for example uint64_t can store a lot more than a normal int.
+7.  All uints can store only positive values, while ints can store negative values as well as positive.
+8.  BYTE - 8 bits; DWORD - 32 bits; LONG - 32 bits; WORD - 16 bits
+9.  B and M in ASCII.
+10. biSize is the number of bytes required by the structure. bfSize is the entire file's size in bytes.
+11. If biHeight is negative, the image is top-down.
+12. biBitCount.
+13. If the file couldn't be open due to some error, NULL will be returned.
+14. The third argument is the number of elements to read, which in our case is 1.
+15. 3
+16. fseek() changes the file position indicator for the stream by adding a specified offset to the previous position
+17. Returns current position indicator.
+18. Milo Banana dun it.

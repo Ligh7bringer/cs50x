@@ -1,0 +1,8 @@
+#
+# Makefile
+#
+# Svetlio's room 50
+# Problem Set 5
+#
+clean:
+	rm -f *.o core recover
