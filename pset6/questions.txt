@@ -1,0 +1,18 @@
+0.  The longest English word in a dictionary.
+1.  Returns resource usage statistics of the given process.
+2.  16.
+3.  Generally hardcoding values is bad. It's better to use constants or variables, because of you decide to change the values, 
+	you can just change the definition of the variable or constant. In this case they have to be pointers as well, so hardcoding them is
+	not an option.
+4.  The file is read one character at a time. If the character is a letter or an apostrophe, it's assigned to an array called word. If 
+	a word is too long, it just starts searching for a new word, truncating the current one. If there's a digit in the word, the word is 
+	ignored and it starts searching for the next word. If the program gets to the final 'else if', then it must have found a valid word.
+	The current word is terminated, and the spelling of the valid word is checked. If it was misspelled, the correct word is printed. 
+	Then the program gets ready for searching for the next valid word.
+5.  Bu using fgetc we can check for each individual character if it's acceptable and if it can be in a word. fscanf reads as much
+	as you tell it which may lead to a mistake, if you are not positive what it's reading is text.
+6.  TODO
+7.  I used a hash table. Each node contains a word (taken from the dictionary) and a pointer to the next node.
+8.  I haven't tried to improve it since it is quite fast. 
+9.  I haven't really tried to improve it but I had a few bigs to fix. 
+10. Yes. I have a memory leak I couldn't fix.
